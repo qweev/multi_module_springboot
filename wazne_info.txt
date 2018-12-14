@@ -1,0 +1,5 @@
+najpierw clean install na calosci czyli w katalogu moduly
+pozniej odpal spring-boot:run w katalogu glowny lub odpal fat jara glowny.jar
+
+!!!  kluczowe jest reczne dodanie skanowania modulow @ComponentScan(basePackages = {"podmodulPackage","cos.net.glowny", "innyPodmodulPackage"})
+inaczej to nie dziala, oraz trzeba miec w pom w glowny dependencje dodane do innych modulow
